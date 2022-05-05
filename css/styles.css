@@ -21,6 +21,8 @@ Seach Bar
     border-radius: 5px;
     max-width: 75%;
     width: 600px;
+    height: 50px;
+    margin-top: 30px;
 }
 
 ::placeholder {
