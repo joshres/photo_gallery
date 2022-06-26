@@ -4,7 +4,7 @@ function search_bar() {
     let images = document.getElementsByClassName('image');
 
     for (i = 0; i < images.length; i++) {
-        let image_title = images[i].getAttribute("alt").toLowerCase();
+        let image_title = images[i].getAttribute("title").toLowerCase();
 
         if (!image_title.includes(input)) {
             images[i].style.display="none";
